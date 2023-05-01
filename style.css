@@ -1,3 +1,37 @@
-h1, h2 {
-  font-family: Lato;
+h1 {
+  background-color: rgba(26, 43, 197, 0.952);
+  color: floralwhite;
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  align-items: center;
 }
+h2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  color: #000;
+  margin-top: 5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  text-align: justify;
+  text-justify: inter-word;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+#viz1,#viz2,#viz3{
+  width: 80%;
+  height: 300px;
+  }
